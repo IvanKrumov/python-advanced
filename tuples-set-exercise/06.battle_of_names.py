@@ -11,7 +11,7 @@ for row in range(1, int(input()) + 1):
 
 if sum(odd_set) == sum(even_set):
     print(*odd_set.union(even_set), sep=", ")
-if sum(odd_set) > sum(even_set):
+elif sum(odd_set) > sum(even_set):
     print(*odd_set.difference(even_set), sep=", ")
 else:
     print(*odd_set.symmetric_difference(even_set), sep=", ") 
