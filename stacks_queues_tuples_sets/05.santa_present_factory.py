@@ -5,7 +5,7 @@ magic = deque([int(num) for num in input().split()])
 presents = {}
 items = {
     150: "Doll",
-    250: "Wooded train",
+    250: "Wooden train",
     300: "Teddy bear",
     400: "Bicycle"
 }
